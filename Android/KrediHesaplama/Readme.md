@@ -9,7 +9,7 @@
 ##Projenin Sunumu
 
 <figure>
-        <img src="*/images/1.png">
+        <img src="http://github.com/yasinbaran/pro-lang/Android/KrediHesaplama/images/1.png">
 </figure>
 
 
