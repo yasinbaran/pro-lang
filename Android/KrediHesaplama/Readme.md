@@ -8,7 +8,7 @@
 
 ##Projenin Sunumu
 
-![Deneme](https://github.com/yasinbaran/pro-lang/tree/master/Android/KrediHesaplama/images/1.png")
+![Deneme](https://github.com/yasinbaran/pro-lang/blob/master/Android/KrediHesaplama/images/1.png)
 
 
 Değişkenlerimizi tanımladık.
