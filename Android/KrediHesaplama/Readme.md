@@ -9,7 +9,7 @@
 ##Projenin Sunumu
 
 <figure>
-        <img src="pro-lang\Android\KrediHesaplama/images/1.png">
+        <img src="*/images/1.png">
 </figure>
 
 
