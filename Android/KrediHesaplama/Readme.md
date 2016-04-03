@@ -95,4 +95,5 @@ Aylık tutar ve toplam tutarı formatlayarak Textview’e yazdırıyoruz.
 
 
 Programımızın ikonunu değiştirmek için: File>New>Image Assets’ten ikonumuzu seçiyoruz ve tamam diyoruz.
+
 Xml’lerimizi sürükle bırak mantığı ile yapıyoruz. Ekranın yan döndürülmesinde ki görüntüyü ayarlamak için ise; layout-land adında yeni bir klasör tanımlayıp, bu klasör içerisine de bir xml dosyası oluşturup, programın akıllı cihazda yan döndürüldüğünde, görünmesini istediğimiz şekilde ayarlıyoruz.
