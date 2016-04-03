@@ -101,7 +101,7 @@ Kredi miktarını alıyoruz. Eğer kredi miktarı girilmeden hesaplanmaya kalkar
 
 
 <figure>
-        <img src="pro-lang\Android\KrediHesaplama/images/13.png">
+        <img src="https://github.com/yasinbaran/pro-lang/tree/master/Android/KrediHesaplama/images/13.png">
 </figure>
 
 Kullanıcın vade süresini girmeden, hesapla butonuna basması durumunda kullanıcıya vadeyi girmesi için uyarı döndürüyoruz.
