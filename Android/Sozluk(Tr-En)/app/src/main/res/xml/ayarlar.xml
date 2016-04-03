@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="Ayarlar">
+
+    <CheckBoxPreference
+        android:key="hatirlatici"
+        android:title="Hatırlatıcı Özelliği"
+        android:defaultValue="false"></CheckBoxPreference>
+    <ListPreference
+        android:key="hatirlatici_suresi"
+        android:title="Hatırlatma Seçenekleri"
+        android:summary="Süre Bilgisini Seçiniz"
+        android:defaultValue="0"
+        android:dialogTitle="Hatırlatma Süresi Seçin"
+        android:entries="@array/Zaman"
+        android:entryValues="@array/hatirlatici_values"/>
+</PreferenceScreen>

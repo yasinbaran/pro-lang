@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="planets_array">
+        <item>Seçiniz</item>
+        <item>İhtiyaç Kredisi</item>
+        <item>Taşıt Kredisi</item>
+        <item>Mortgage Kredisi</item>
+        <item>İpotekli Finansman Kredisi</item>
+    </string-array>
+
+    <string name="app_name">MyAppCredit</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

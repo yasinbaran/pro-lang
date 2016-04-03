@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yasinbaran.sozluktr_en" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Sözlük"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="Sözlük" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AnaEkran"
+            android:label="Sözlük" >
+        </activity>
+        <activity
+            android:name=".KelimeKayit"
+            android:label="Kelime Kaydet" >
+        </activity>
+        <activity
+            android:name=".KelimeAra"
+            android:label="Kelime Ara" >
+        </activity>
+        <activity
+            android:name=".TrEn"
+            android:label="Türkçe-İngilizce" >
+        </activity>
+        <activity
+            android:name=".EnTr"
+            android:label="İngilizce-Türkçe" >
+        </activity>
+        <activity
+            android:name=".TercihActivity"
+            android:label="Ayarlar" >
+        </activity>
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+    </application>
+
+</manifest>

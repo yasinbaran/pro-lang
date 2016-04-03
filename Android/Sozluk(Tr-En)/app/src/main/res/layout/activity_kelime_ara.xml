@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/arka_plan"
+    tools:context="com.example.yasinbaran.sozluktr_en.KelimeAra"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.22">
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:background="@drawable/tr_en"
+            android:onClick="buttonTE"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:background="@drawable/en_tr"
+            android:onClick="buttonET"/>
+        </LinearLayout>
+
+</LinearLayout>

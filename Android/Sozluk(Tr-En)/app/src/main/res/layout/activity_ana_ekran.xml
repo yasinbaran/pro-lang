@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/arka_plan"
+    android:gravity="center"
+    tools:context="com.example.yasinbaran.sozluktr_en.AnaEkran"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/kelime_kaydet"
+            android:layout_gravity="center_horizontal"
+            android:onClick="buttonKK"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06">
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/kelime_ara"
+        android:onClick="buttonKA"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/kelime_hatirlatici"
+        android:onClick="buttonKH"/>
+    </LinearLayout>
+
+</LinearLayout>

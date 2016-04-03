@@ -1,0 +1,63 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/arka_plan"
+    tools:context="com.example.yasinbaran.sozluktr_en.TrEn">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelimeyi Giriniz:"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#660000"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/TKelime"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/kelime_ara"
+            android:onClick="btnAra"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Kelimenin İngilizcesi:"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#660000"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/Ikelime"/>
+        </LinearLayout>
+
+
+</LinearLayout>

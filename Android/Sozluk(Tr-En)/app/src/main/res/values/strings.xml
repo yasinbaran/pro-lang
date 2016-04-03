@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sozluk(Tr-En)</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ana_ekran">AnaEkran</string>
+    <string name="title_activity_kelime_kayit">KelimeKayit</string>
+    <string name="title_activity_kelime_ara">KelimeAra</string>
+    <string name="title_activity_kelime_hatirlat">KelimeHatirlat</string>
+    <string name="title_activity_tr_en">TrEn</string>
+    <string name="title_activity_en_tr">EnTr</string>
+
+</resources>

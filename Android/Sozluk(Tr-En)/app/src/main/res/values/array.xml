@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Zaman">
+        <item>1 dakika</item>
+        <item>2 dakika</item>
+        <item>3 dakika</item>
+        <item>4 dakika</item>
+        <item>5 dakika</item>
+        <item>10 dakika</item>
+        <item>15 dakika</item>
+        <item>20 dakika</item>
+        <item>25 dakika</item>
+        <item>30 dakika</item>
+    </string-array>
+    <string-array name="hatirlatici_values">
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+            <item>4</item>
+            <item>5</item>
+            <item>10</item>
+            <item>15</item>
+            <item>20</item>
+            <item>25</item>
+            <item>30</item>
+    </string-array>
+
+
+
+</resources>

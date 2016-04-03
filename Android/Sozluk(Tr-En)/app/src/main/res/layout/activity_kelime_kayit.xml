@@ -1,0 +1,70 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/arka_plan"
+    tools:context="com.example.yasinbaran.sozluktr_en.TrEn"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelimenin Türkçesi:"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#660000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/KT"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelimenin İngilizcesi:"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#660000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/KI"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_weight="0.14">
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/kaydet"
+            android:layout_gravity="center"
+            android:onClick="btnKayit"/>
+        </LinearLayout>
+
+
+</LinearLayout>
