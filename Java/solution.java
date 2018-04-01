@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Bir şirket için girdiğim mülakatta Codility üzerinden bir sınav yapıldı. Soru
  * şu: Bir parola belirlemek istiyorum. Kurallar: Bu şifre de en az bir büyük
- * harf bulunacak ve rakam olmayacak. Girdi olarak bir string alacak "aoBa" gibi
+ * harf bulunacak ve rakam olmayacak. Girdi olarak bir string alacak "a0Ba" gibi
  * ve sonuç olarak da bu stringin alt dizelerinde kurallara uygun en uzun
  * şifrenin boyutunu integer olarak dönecek,kurallara uygun şifre yoksa -1
  * dönecek. Örnekler: "a0Ba" girdimiz ise çıktı olarak 2(Ba) üretmeli.
